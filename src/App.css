@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,113 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  background: rgb(99,77,29);
+  background: linear-gradient(0deg, rgb(248, 108, 53) 0%, rgba(255,174,0,1) 100%);
+  color: white;
+  text-shadow: 2px 2px #000000;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  padding: 30px;
+}
+
+p:nth-child(2) {
+  color: rgb(77, 77, 77);
+  font-size: 20px;
+  /* font-weight: bold; */
+  margin: 0px;
+  padding: 10px;
+}
+
+select {
+  background: rgb(255, 255, 255);
+  color:rgb(77, 77, 77);
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid rgb(218, 130, 15);
+  border-radius: 4px;
+}
+
+input {
+  
+}
+
+.meme span {
+ background-color: transparent;
+ font-size: 28px;
+ font-family: "Impact";
+ color: white;
+ text-shadow: black 0px 0px 10px;
+ width: 100%;
+ position: absolute;
+ left: 0px;
+ top: 320px;
+}
+
+
+.meme span:nth-child(2) {
+  margin-top: 320px;
+}
+
+.meme img {
+  width: 100%;
+  height: 100%;
+}
+
+body, .meme {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+}
+
+button {
+  background: rgb(99,77,29);
+  background: linear-gradient(0deg, rgb(248, 108, 53) 0%, rgba(255,174,0,1) 100%);
+  border-color: rgb(255, 153, 0);
+  border-radius: 5px;
+  padding: 10px;
+  margin:10px;
+  font-size:20px;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+div {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:100%;
+}
+
+footer {
+  background: rgb(99,77,29);
+  background: linear-gradient(0deg, rgb(248, 108, 53) 0%, rgba(255,174,0,1) 100%);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px #000000;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  padding: 50px;
+  text-decoration: none;
+}
+
+a {
+  color: #b7d7e8;
 }
