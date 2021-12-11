@@ -63,7 +63,7 @@ function App() {
       {/* Boton exportar */}
       <button onClick={onClickExport}>Descargar</button>
       <footer>
-        <p>Creado por <a href="https://www.linkedin.com/in/ricardoanaya/" target="_blank" rel="noopener noreferrer">Ricardo</a></p>
+        <p>Creado por <a href="https://anayaricardo.netlify.app/" target="_blank" rel="noopener noreferrer">Ricardo</a></p>
         <p></p>
       </footer>
     </div>
